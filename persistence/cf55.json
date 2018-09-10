@@ -1,0 +1,18 @@
+[
+  { "id":,
+    "name":"",
+    "rarity":,
+    "color":"",
+    "tribes":["", ""],
+    "type":"",
+    "cost":,
+    "hp":,
+    "atk":,
+    "rec":,
+    "skill": [{"name": "",
+                "action": "",
+                "cooldown":}],
+    "cskill": "",
+    "abilities": [{"one": [{"action":"","bug":}], "two": [{"action":"","bug":}], "three": [{"action":"","bug":}], "four": [{"action": "", "bug"}]]
+  }
+]
