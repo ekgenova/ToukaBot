@@ -18,11 +18,12 @@ exports.run = (client,message,args) => {
   });
 
   const embed = new Discord.RichEmbed()
-    .setTitle(`${message.author.tag}'s Profile`)
-    .setAuthor(client.user.username, client.user.avatarURL)
-    .setColor(0x00AE86)
-    .setThumbnail(`${message.author.avatarURL}`)
-    .addField(`**Level**: ${client.exp.get(key, "level")}`,`You currently have ${client.exp.get(key, "exp")} EXP`)
-    .addField(`**Poly** <:poly:486028147821641740>`, `${client.credit.get(key, "poly")}`)
-  return message.channel.send({embed});
+      .setTitle(`${message.author.tag}'s Profile`)
+      .setAuthor(client.user.username, client.user.avatarURL)
+      .setColor(0x00AE86)
+      .setThumbnail(`${message.author.avatarURL}`)
+      .addField(`**Level**: ${client.exp.get(key, "level")}`,`You currently have ${client.exp.get(key, "exp")} EXP`, true)
+      .addField(`**Poly** <:poly:486028147821641740>:`, `${client.credit.get(key, "poly")}`, true)
+      .addField(`**Claims**:`, `${client.claims.get(key, "claimList")}`)
+    return message.channel.send({embed});
 }

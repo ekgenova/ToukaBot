@@ -30,10 +30,14 @@ exports.run = (client,message,args) => {
   gifterPoly -= polyToGift;
 
   // And we save it!
-  if (gifterPoly > polyToGift){
+  if (gifterPoly >= polyToGift){
     client.credit.set(receiver, receiverPoly, "poly");
     client.credit.set(gifter, gifterPoly, "poly");
-  }
 
-  message.channel.send(`<@${user.id}> has received ${polyToGift} <:poly:486028147821641740> from <@${message.author.id}>~ `);
-    }
+    message.channel.send(`<@${user.id}> has received ${polyToGift} <:poly:486028147821641740> from <@${message.author.id}>~ `);
+
+  } else {
+
+    message.channel.reply('You don\'t have that much poly to gift!');
+  }
+   }

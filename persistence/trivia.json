@@ -1,0 +1,127 @@
+{
+  "textQuestions": [
+    {
+      "topic": "General",
+      "questions": [
+        {
+          "difficulty": "Easy",
+          "questions": [
+            {
+              "question": "",
+              "answer": "",
+            },
+            {
+              "question": "What is the highest cost for a unit in the game currently?",
+              "answer": "58",
+            },
+            {
+              "question": "How much energy do Wizard quests cost?",
+              "answer": "30",
+            },
+            {
+              "question": "How much energy do Ultimate quests cost?",
+              "answer": "40",
+            },
+            {
+              "question": "Who is the developer of Crash Fever?",
+              "answer": "Wonderplanet",
+            },
+            {
+              "question": "What is the name of the premium currency in-game?",
+              "answer": "Polygon",
+            },
+            {
+              "question": "What is the name of the **non**-premium currency in-game?",
+              "answer": "Bits",
+            },
+            {
+              "question": "How many Normal Quest are there?",
+              "answer": "31",
+            },
+            {
+              "question": "How much energy do Easy quests cost?",
+              "answer": "8",
+            },
+            {
+              "question": "How much energy do Normal quests cost?",
+              "answer": "15",
+            },
+            {
+              "question": "How much energy do Hard quests cost?",
+              "answer": "20",
+            },
+            {
+              "question": "How many regions are there?",
+              "answer": "",
+            }
+          ]
+        },
+        {
+          "difficulty": "Medium",
+          "questions": [
+          ]
+        },
+        {
+          "difficulty": "Hard",
+          "questions": [
+          ]
+        }
+      ]},
+    [
+      {
+        "topic": "Units",
+        "questions": [
+          {
+            "difficulty": "Easy",
+            "questions": [
+
+            ]},
+          {
+            "difficulty": "Medium",
+            "questions": [
+
+              ]},
+          {
+            "difficulty": "Hard"
+          },
+          {"questions": [
+
+                  ]}
+          ]
+          }
+        ],
+    [
+      {
+        "topic": "Quests",
+        "questions": [
+          {
+            "difficulty": "Easy",
+            "questions": [
+
+            ]},
+          {
+            "difficulty": "Medium",
+            "questions": [
+
+            ]},
+          {
+            "difficulty": "Hard",
+            "questions": [
+
+          ]}
+        ]
+      }
+        ]
+    ]}
+
+/* Topics:
+-ghost store
+-specific units
+-quests
+-ranked
+-awakening
+-guerilla quests
+-bits,links,polygons
+-transcendent
+
+*/

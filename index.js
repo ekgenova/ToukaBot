@@ -14,6 +14,9 @@ client.logger = require("./modules/Logger");
 
 client.exp = new Enmap({name: "exp"});
 client.credit = new Enmap({name: "credit"});
+client.claims = new Enmap({name: "claims"});
+client.newclaim = new Enmap({name: "newclaim"});
+client.bets = new Enmap({name: "bets"});
 
 
 fs.readdir("./events/", (err, files) => {
