@@ -1,7 +1,7 @@
 exports.run = (client,message,args) => {
   // Limited to guild owner - adjust to your own preference!
   const modRole = "408067376546971657";
-  if((!message.author.id === message.guild.owner) || !message.member.roles.has("modRole")) return message.reply("Sorry, you can't do that! :(");
+  if((!message.author.id === message.guild.ownerID) || !message.member.roles.has("modRole")) return message.reply("Sorry, you can't do that! :(");
 
   const user = message.mentions.users.first() || client.users.get(args[0]);
   if(!user) return message.reply("You must mention someone or give their ID!");

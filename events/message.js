@@ -19,7 +19,7 @@ module.exports = (client, message) => {
             user: message.author.id,
             guild: message.guild.id,
             claimCount: 0,
-            claimList: [],
+            claimList: ["None"],
             totalSpent: 0
         });
         client.bets.ensure(key, {
@@ -27,6 +27,26 @@ module.exports = (client, message) => {
             guild: message.guild.id,
             totalWins: 0,
             HTWins: 0
+        });
+        client.trivia.ensure(key, {
+            user: message.author.id,
+            guild: message.guild.id,
+            correctAnswers: 0,
+            incorrectAnswers: 0,
+            unanswered: 0,
+            question: false,
+            easyAnswers: 0,
+            mediumAnswers: 0,
+            hardAnswers: 0,
+            generalAnswers: 0,
+            unitAnswers: 0,
+            titleAnswers: 0,
+            guessWhoAnswers: 0,
+            questAnswers: 0,
+            sniped: 0,
+            exp: 0,
+            level: 0,
+            mode: 0
         });
 
         client.exp.inc(key, "exp");

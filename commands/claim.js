@@ -3,7 +3,7 @@ exports.run = (client,message,args) => {
     const key = `${message.guild.id}-${message.author.id}`;
     let unitToClaim = args.slice(0, args.length-1).join("");
     let polyToUse = parseInt(args[args.length-1]);
-    if (args.length < 2) return message.reply("You need to tell me a unit and value to claim... :( Try something like t.claim Pascal 100 <:touka:485948194652553216>")
+    if (args.length < 2) return message.reply("You need to tell me a unit and value to claim... :( Try something like t.claim Pascal 100 <:touka:485948194652553216>");
     if (!polyToUse) return message.reply('You didn\'t tell me how much <:poly:486028147821641740> to use for the claim... :( Try something like t.claim Pascal 100 <:touka:485948194652553216>');
 
     unitToClaim = capitalise(unitToClaim);
@@ -27,9 +27,17 @@ exports.run = (client,message,args) => {
             message.reply('You\'ve given ' + polyToUse + '<:poly:486028147821641740> to ' + unitToClaim + ' again! I can feel the love~');
         } else {
             client.claims.set(key, polyToUse, unitToClaim);
-            client.claims.inc(key, "claimCount");
-            client.claims.push(key, unitToClaim, "claimList");
-
+            if (client.claims.hasProp(key, "claimCount")){
+                client.claims.inc(key, "claimCount");
+            } else {
+                client.claims.set(key, 1, "claimCount");
+            }
+            if (client.claims.get(key, "claimList")[0] === "None"){
+                client.claims.remove(key, "None", "claimList");
+                client.claims.push(key, unitToClaim, "claimList");
+            } else {
+                client.claims.push(key, unitToClaim, "claimList");
+            }
             message.reply('You\'ve claimed ' + unitToClaim + ' using ' + polyToUse + '<:poly:486028147821641740> ~ <:heart:490338691852795914>');
         }
 
