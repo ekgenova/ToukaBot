@@ -1,6 +1,7 @@
 config.json
 Procfile
 node_modules/
+data/
 
 .idea/
 
