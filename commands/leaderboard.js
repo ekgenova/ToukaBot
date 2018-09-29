@@ -55,7 +55,7 @@ exports.run = (client,message,args) => {
           .setDescription("Top 5 users that have spent the most poly claiming~");
       for (let data3 of top10TotalSpent){
           let userID = client.users.get(data3.user).id;
-          let key = `${message.guild.id}-${message.author.id}`;
+          let key = `${message.guild.id}-${userID}`;
           embedClaims2.addField(`${client.users.get(data3.user).tag}`, `${client.claims.get(key, "totalSpent")}` , true);
       }
       return message.channel.send(embedClaims2);

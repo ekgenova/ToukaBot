@@ -25,8 +25,6 @@ exports.run = (client,message,args) => {
       totalSpent: 0
   });
 
-  message.channel.send(client.claims.get(key, "claimList"));
-
   let profileNonEmptyClaim = new Discord.RichEmbed()
       .setTitle(`${message.author.tag}'s Profile`)
       .setAuthor(client.user.username, client.user.avatarURL)
