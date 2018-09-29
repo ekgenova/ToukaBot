@@ -38,6 +38,6 @@ exports.run = (client,message,args) => {
 
   } else {
 
-    message.channel.reply('You don\'t have that much poly to gift!');
+    message.reply('You don\'t have that much poly to gift!');
   }
    }

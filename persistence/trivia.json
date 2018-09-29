@@ -1,5 +1,5 @@
 {
-  "textQuestions": [
+  "trivia": [
     {
       "topic": "General",
       "questions": [
@@ -8,89 +8,1155 @@
           "questions": [
             {
               "question": "",
-              "answer": "",
+              "answer": ""
             },
             {
               "question": "What is the highest cost for a unit in the game currently?",
-              "answer": "58",
+              "answer": "60"
             },
             {
               "question": "How much energy do Wizard quests cost?",
-              "answer": "30",
+              "answer": "30"
             },
             {
               "question": "How much energy do Ultimate quests cost?",
-              "answer": "40",
+              "answer": "40"
             },
             {
               "question": "Who is the developer of Crash Fever?",
-              "answer": "Wonderplanet",
+              "answer": "Wonderplanet"
             },
             {
               "question": "What is the name of the premium currency in-game?",
-              "answer": "Polygon",
+              "answer": "Polygon"
             },
             {
               "question": "What is the name of the **non**-premium currency in-game?",
-              "answer": "Bits",
+              "answer": "Bits"
             },
             {
               "question": "How many Normal Quest are there?",
-              "answer": "31",
+              "answer": "31"
             },
             {
               "question": "How much energy do Easy quests cost?",
-              "answer": "8",
+              "answer": "8"
             },
             {
               "question": "How much energy do Normal quests cost?",
-              "answer": "15",
+              "answer": "15"
             },
             {
               "question": "How much energy do Hard quests cost?",
-              "answer": "20",
+              "answer": "20"
             },
             {
-              "question": "How many regions are there?",
-              "answer": "",
+              "question": "What color beats Red?",
+              "answer": "Blue"
+            },
+            {
+              "question": "What color beats Blue?",
+              "answer": "Yellow"
+            },
+            {
+              "question": "What color beats Yellow?",
+              "answer": "Green"
+            },
+            {
+              "question": "What color beats Green?",
+              "answer": "Red"
+            },
+            {
+              "question": "What is the minimum chain size to create a CP without buffs?",
+              "answer": "6"
+            },
+            {
+              "question": "What is the minimum chain size to create a SCP without buffs?",
+              "answer": "12"
+            },
+            {
+              "question": "What is the maximum length chain possible?",
+              "answer": "46"
+            },
+            {
+              "question": "**High** CP boost makes it easier to make a CP by how many panels?",
+              "answer": "2"
+            },
+            {
+              "question": "**Massive** CP boost makes it easier to make a CP by how many panels?",
+              "answer": "4"
+            },
+            {
+              "question": "**Ultra** CP boost makes it easier to make a CP by how many panels?",
+              "answer": "6"
+            },
+            {
+              "question": "**Immense** CP boost makes it easier to make a CP by how many panels?",
+              "answer": "12"
+            },
+            {
+              "question": "What is the minimum chain size to create CP with **high** CP boost?",
+              "answer": "4"
+            },
+            {
+              "question": "What is the minimum chain size to create CP with **massive** CP boost?",
+              "answer": "2"
+            },
+            {
+              "question": "What is the minimum chain size to create CP with **ultra** CP boost?",
+              "answer": "1"
+            },
+            {
+              "question": "What is the minimum chain size to create SCP with **high** CP boost?",
+              "answer": "10"
+            },
+            {
+              "question": "What is the minimum chain size to create SCP with **massive** CP boost?",
+              "answer": "8"
+            },
+            {
+              "question": "What is the minimum chain size to create SCP with **ultra** CP boost?",
+              "answer": "6"
+            },
+            {
+              "question": "What is the minimum chain size to create SCP with **immense** CP boost?",
+              "answer": "1"
+            },
+            {
+              "question": "What does CP stand for?",
+              "answer": "Crash Panel"
+            },
+            {
+              "question": "What does SCP stand for?",
+              "answer": "Super Crash Panel"
+            },
+            {
+              "question": "What does CBP stand for?",
+              "answer": "Color break panel"
+            },
+            {
+              "question": "What do you usually feed units for EXP?",
+              "answer": "Ducks"
+            },
+            {
+              "question": "What currency do you use to pull on the enhancement hatcher?",
+              "answer": "Links"
+            },
+            {
+              "question": "How much polygon does it cost to do a single pull on a hatcher?",
+              "answer": "50"
+            },
+            {
+              "question": "How much polygon does it usually cost to do a 10x pull on a hatcher?",
+              "answer": "500"
+            },
+            {
+              "question": "How much polygon does it cost to do a 10x pull on a hatcher if it is discounted?",
+              "answer": "250"
+            },
+            {
+              "question": "What panel explodes and converts the area around it?",
+              "answer": "Paint"
+            },
+            {
+              "question": "What gimmick are you normally unable to break?",
+              "answer": "Junk"
+            },
+            {
+              "question": "What gimmick damages you when you take it?",
+              "answer": "Damage"
+            },
+            {
+              "question": "What gimmick do you have to clear twice? ",
+              "answer": "Protect"
+            },
+            {
+              "question": "How much REC does a unit get when at +99 blue apples?",
+              "answer": "693"
+            },
+            {
+              "question": "How much ATK does a unit get when at +99 red apples?",
+              "answer": "990"
+            },
+            {
+              "question": "How much HP does a unit get when at +99 green apples?",
+              "answer": "1485"
+            },
+            {
+              "question": "How many bugs does a max bug 6* unit have?",
+              "answer": "99"
+            },
+            {
+              "question": "How many bugs does a max bug 5* unit have?",
+              "answer": "75"
+            },
+            {
+              "question": "How many times a day do duck hunt quests appear?",
+              "answer": "4"
+            },
+            {
+              "question": "What is the world of Crash Fever called?",
+              "answer": "Alice"
+            },
+            {
+              "question": "How much EXP does a Global Ducksworth give to a unit of the same color?",
+              "answer": "1500000"
+            },
+            {
+              "question": "How much EXP does a Global Ducksworth give to a unit of a different color?",
+              "answer": "1000000"
+            },
+            {
+              "question": "How much ATK does an attack fruit give?",
+              "answer": "10"
+            },
+            {
+              "question": "How much ATK does a Mega attack fruit give?",
+              "answer": "30"
+            },
+            {
+              "question": "How much ATK does a Giga attack fruit give?",
+              "answer": "100"
+            },
+            {
+              "question": "What are some units in Crash Fever infected by?",
+              "answer": "C virus"
+            },
+            {
+              "question": "How much ATK does a Tera attack fruit give?",
+              "answer": "200"
+            },
+            {
+              "question": "What panel deals damage to you after a certain amount of turns if not destroyed?",
+              "answer": "Timer"
+            },
+            {
+              "question": "What cost are units that come from Ultimate stages?",
+              "answer": "50"
+            },
+            {
+              "question": "What cost are units that come from Wizard stages?",
+              "answer": "45"
+            },
+            {
+              "question": "What cost are Festival units?",
+              "answer": "55"
+            },
+            {
+              "question": "What chat command is often used to signify 'skip turn'?",
+              "answer": "Defend"
+            },
+            {
+              "question": "How many ghosts does Strength cost?",
+              "answer": "200000"
+            },
+            {
+              "question": "How many ghosts does Lovers cost?",
+              "answer": "200000"
+            },
+            {
+              "question": "How many ghosts does Chariot cost?",
+              "answer": "200000"
+            },
+            {
+              "question": "How many ghosts does Nessebar cost?",
+              "answer": "65000"
+            },
+            {
+              "question": "How many ghosts does Lemuria cost?",
+              "answer": "65000"
+            },
+            {
+              "question": "How many ghosts does Megallanica cost?",
+              "answer": "65000"
+            },
+            {
+              "question": "How many ghosts does Magician cost?",
+              "answer": "200000"
+            },
+            {
+              "question": "How many ghosts does Troy/Trojan cost?",
+              "answer": "65000"
+            },
+            {
+              "question": "How many FES/Rank ticket pieces does it take to form an entire ticket?",
+              "answer": "5"
+            },
+            {
+              "question": "How many rank points does it cost to purchase a rank unit?",
+              "answer": "10"
+            },
+            {
+              "question": "What type of animal is obtained from **Easy** Awakening quests?",
+              "answer": "Cat"
+            },
+            {
+              "question": "What type of animal is obtained from **Normal** Awakening quests?",
+              "answer": "Hare"
+            },
+            {
+              "question": "What type of animal is obtained from **Hard** Awakening quests?",
+              "answer": "Caterpillar"
+            },
+            {
+              "question": "What type of animal is obtained from **Blue Legend** awakening quests?",
+              "answer": "Turtle"
+            },
+            {
+              "question": "What type of animal is obtained from **Red Legend** awakening quests?",
+              "answer": "Dodo"
+            },
+            {
+              "question": "What type of animal is obtained from **Yellow Legend** awakening quests?",
+              "answer": "Dormouse"
+            },
+            {
+              "question": "What type of animal is obtained from **Green Legend** awakening quests?",
+              "answer": "Griffon"
+            },
+            {
+              "question": "Who is the boss of Tower of the Queen: Chandille?",
+              "answer": "Sophia"
+            },
+            {
+              "question": "Who is the boss of Tower of the Queen: Elfram?",
+              "answer": "Rose"
+            },
+            {
+              "question": "Who is the boss of Tower of the Queen: Avaricia?",
+              "answer": "Bonanza"
+            },
+            {
+              "question": "How many days is the Daily Login reward rotation?",
+              "answer": "8"
             }
           ]
         },
         {
           "difficulty": "Medium",
           "questions": [
+            {
+              "question": "What is the cost increase when awakening from 5* to 6*?",
+              "answer": "15"
+            },
+            {
+              "question": "What is the cost increase when awakening from 4* to 5*?",
+              "answer": "10"
+            },
+            {
+              "question": "How much EXP is gained for a Wizard quest?",
+              "answer": "4500"
+            },
+            {
+              "question": "How much EXP is gained for an Ultimate quest?",
+              "answer": "5200"
+            },
+            {
+              "question": "How much EXP is gained for a Ranked quest?",
+              "answer": "4200"
+            },
+            {
+              "question": "What is the **1st** Normal quest area called?",
+              "answer": "Entering the Mainframe"
+            },
+            {
+              "question": "At what chain length is the CP damage at 100%?",
+              "answer": "11"
+            },
+            {
+              "question": "What is the damage amplifier of a **High** damage single-target CP?",
+              "answer": "2"
+            },
+            {
+              "question": "What is the damage amplifier of a **Massive** damage single-target CP?",
+              "answer": "2.25"
+            },
+            {
+              "question": "What is the damage amplifier of an **Ultra** damage single-target CP?",
+              "answer": "2.5"
+            },
+            {
+              "question": "What is the damage amplifier of an **Immense** damage single-target CP?",
+              "answer": "2.75"
+            },
+            {
+              "question": "What is the power in % of a 46 chain CP?",
+              "answer": "450"
+            },
+            {
+              "question": "What is the power in % of a 6 chain CP?",
+              "answer": "50"
+            },
+            {
+              "question": "What is the power in % of a 7 chain CP?",
+              "answer": "60"
+            },
+            {
+              "question": "What is the power in % of an 8 chain CP?",
+              "answer": "70"
+            },
+            {
+              "question": "What is the power in % of a 9 chain CP?",
+              "answer": "80"
+            },
+            {
+              "question": "What is the power in % of a 10 chain CP?",
+              "answer": "90"
+            },
+            {
+              "question": "What is the power in % of a 11 chain CP?",
+              "answer": "100"
+            },
+            {
+              "question": "What is the power in % of a 12 chain CP?",
+              "answer": "110"
+            },
+            {
+              "question": "What is the power in % of a 13 chain CP?",
+              "answer": "120"
+            },
+            {
+              "question": "What is the power in % of a 14 chain CP?",
+              "answer": "130"
+            },
+            {
+              "question": "What is the power in % of a 15 chain CP?",
+              "answer": "140"
+            },
+            {
+              "question": "What is the power in % of a 16 chain CP?",
+              "answer": "150"
+            },
+            {
+              "question": "What is the power in % of a 17 chain CP?",
+              "answer": "160"
+            },
+            {
+              "question": "What is the power in % of a 18 chain CP?",
+              "answer": "170"
+            },
+            {
+              "question": "What is the power in % of a 19 chain CP?",
+              "answer": "180"
+            },
+            {
+              "question": "What is the power in % of a 20 chain CP?",
+              "answer": "190"
+            },
+            {
+              "question": "What is the power in % of a 21 chain CP?",
+              "answer": "200"
+            },
+            {
+              "question": "What is the power in % of a 22 chain CP?",
+              "answer": "210"
+            },
+            {
+              "question": "What is the power in % of a 23 chain CP?",
+              "answer": "220"
+            },
+            {
+              "question": "What is the power in % of a 24 chain CP?",
+              "answer": "230"
+            },
+            {
+              "question": "What is the power in % of a 25 chain CP?",
+              "answer": "240"
+            },
+            {
+              "question": "What is the power in % of a 26 chain CP?",
+              "answer": "250"
+            },
+            {
+              "question": "What is the power in % of a 27 chain CP?",
+              "answer": "260"
+            },
+            {
+              "question": "What is the power in % of a 28 chain CP?",
+              "answer": "270"
+            },
+            {
+              "question": "What is the power in % of a 29 chain CP?",
+              "answer": "280"
+            },
+            {
+              "question": "What is the power in % of a 30 chain CP?",
+              "answer": "290"
+            },
+            {
+              "question": "What is the power in % of a 31 chain CP?",
+              "answer": "300"
+            },
+            {
+              "question": "What is the power in % of a 32 chain CP?",
+              "answer": "310"
+            },
+            {
+              "question": "What is the power in % of a 33 chain CP?",
+              "answer": "320"
+            },
+            {
+              "question": "What is the power in % of a 34 chain CP?",
+              "answer": "330"
+            },
+            {
+              "question": "What is the power in % of a 35 chain CP?",
+              "answer": "340"
+            },
+            {
+              "question": "What is the power in % of a 36 chain CP?",
+              "answer": "350"
+            },
+            {
+              "question": "What is the power in % of a 37 chain CP?",
+              "answer": "360"
+            },
+            {
+              "question": "What is the power in % of a 38 chain CP?",
+              "answer": "370"
+            },
+            {
+              "question": "What is the power in % of a 39 chain CP?",
+              "answer": "380"
+            },
+            {
+              "question": "What is the power in % of a 40 chain CP?",
+              "answer": "390"
+            },
+            {
+              "question": "What is the power in % of a 41 chain CP?",
+              "answer": "400"
+            },
+            {
+              "question": "What is the power in % of a 42 chain CP?",
+              "answer": "410"
+            },
+            {
+              "question": "What is the power in % of a 43 chain CP?",
+              "answer": "420"
+            },
+            {
+              "question": "What is the power in % of a 44 chain CP?",
+              "answer": "430"
+            },
+            {
+              "question": "What is the power in % of a 45 chain CP?",
+              "answer": "440"
+            },
+            {
+              "question": "What is the bit cost per unit used to enhance a **level 1** unit?",
+              "answer": "100"
+            },
+            {
+              "question": "What is the bit cost per unit used to enhance a **level 99** unit?",
+              "answer": "990"
+            },
+            {
+              "question": "How much HP does a vitality fruit give?",
+              "answer": "15"
+            },
+            {
+              "question": "How much HP does a Mega vitality fruit give?",
+              "answer": "45"
+            },
+            {
+              "question": "How much HP does a Giga vitality fruit give?",
+              "answer": "150"
+            },
+            {
+              "question": "How much HP does a Tera vitality fruit give?",
+              "answer": "300"
+            },
+            {
+              "question": "How many servers are there?",
+              "answer": "5"
+            },
+            {
+              "question": "Which ranking type does Longinus come from?",
+              "answer": "Spear"
+            },
+            {
+              "question": "Which ranking type does Excalibur come from?",
+              "answer": "Sword"
+            },
+            {
+              "question": "Which ranking type does Gambanteinn come from?",
+              "answer": "Staff"
+            },
+            {
+              "question": "Which ranking type does Gae Bolg come from?",
+              "answer": "Spear"
+            },
+            {
+              "question": "Which ranking type does Trident come from?",
+              "answer": "Spear"
+            },
+            {
+              "question": "Which ranking type does Gungnir come from?",
+              "answer": "Spear"
+            },
+            {
+              "question": "Which ranking type does Ame no Murakumo come from?",
+              "answer": "Blade"
+            },
+            {
+              "question": "Which ranking type does Muramasa come from?",
+              "answer": "Blade"
+            },
+            {
+              "question": "Which ranking type does Masamune come from?",
+              "answer": "Blade"
+            },
+            {
+              "question": "Which ranking type does Laevateinn come from?",
+              "answer": "Sword"
+            },
+            {
+              "question": "Which ranking type does Balmung come from?",
+              "answer": "Sword"
+            },
+            {
+              "question": "Which ranking type does Onimaru Kunitsuna come from?",
+              "answer": "Blade"
+            },
+            {
+              "question": "Which ranking type does Lindsay come from?",
+              "answer": "Christmas"
+            },
+            {
+              "question": "Which ranking type does Poinsettia come from?",
+              "answer": "Christmas"
+            },
+            {
+              "question": "Which ranking type does Velvet come from?",
+              "answer": "Christmas"
+            },
+            {
+              "question": "Which ranking type does Graham come from?",
+              "answer": "Sword"
+            },
+            {
+              "question": "How much do Nurupon cost in the Ghost store?",
+              "answer": "25000"
+            },
+            {
+              "question": "Which ranking type does Sha Wujing come from?",
+              "answer": "Staff"
+            },
+            {
+              "question": "Which ranking type does Caduceus come from?",
+              "answer": "Staff"
+            }
           ]
         },
         {
           "difficulty": "Hard",
           "questions": [
+            {
+              "question": "What is the **2nd** Normal quest area called?",
+              "answer": "Firestorm Shrine"
+            },
+            {
+              "question": "What is the **3rd** Normal quest area called?",
+              "answer": "Green Mall"
+            },
+            {
+              "question": "What is the **4th** Normal quest area called?",
+              "answer": "Sun-Drenched Meadow"
+            },
+            {
+              "question": "What is the **5th** Normal quest area called?",
+              "answer": "Wet Wet Wonderland"
+            },
+            {
+              "question": "What is the **6th** Normal quest area called?",
+              "answer": "Domain of Dreams"
+            },
+            {
+              "question": "What is the **7th** Normal quest area called?",
+              "answer": "Juju jungle"
+            },
+            {
+              "question": "What is the **8th** Normal quest area called?",
+              "answer": "Deadly Desert"
+            },
+            {
+              "question": "What is the **9th** Normal quest area called?",
+              "answer": "Lovers Glacier"
+            },
+            {
+              "question": "What is the **10th** Normal quest area called?",
+              "answer": "Autumn Leaf Crags"
+            },
+            {
+              "question": "What is the **11th** Normal quest area called?",
+              "answer": "Ravaged Battlefield"
+            },
+            {
+              "question": "What is the **12th** Normal quest area called?",
+              "answer": "Electric Town Akihabara 2.0"
+            },
+            {
+              "question": "What is the **13th** Normal quest area called?",
+              "answer": "Sky Palace Madora"
+            },
+            {
+              "question": "What is the **14th** Normal quest area called?",
+              "answer": "Mashup Mechalopolis"
+            },
+            {
+              "question": "What is the **15th** Normal quest area called?",
+              "answer": "Hyperdrive Stadium"
+            },
+            {
+              "question": "What is the **16th** Normal quest area called?",
+              "answer": "Candy Cottage"
+            },
+            {
+              "question": "What is the **17th** Normal quest area called?",
+              "answer": "Enarius Undersea Temple"
+            },
+            {
+              "question": "What is the **18th** Normal quest area called?",
+              "answer": "Alice Bowling Alley"
+            },
+            {
+              "question": "What is the **19th** Normal quest area called?",
+              "answer": "Alaster Palace Library"
+            },
+            {
+              "question": "What is the **20th** Normal quest area called?",
+              "answer": "Colosseum"
+            },
+            {
+              "question": "What is the **21st** Normal quest area called?",
+              "answer": "Butterfly Botanical Garden"
+            },
+            {
+              "question": "What is the **22nd** Normal quest area called?",
+              "answer": "Burning Purple Festival"
+            },
+            {
+              "question": "What is the **23rd** Normal quest area called?",
+              "answer": "Fang Forest"
+            },
+            {
+              "question": "What is the **24th** Normal quest area called?",
+              "answer": "Battlefield Paradise"
+            },
+            {
+              "question": "What is the **25th** Normal quest area called?",
+              "answer": "Sadistic Party"
+            },
+            {
+              "question": "What is the **26th** Normal quest area called?",
+              "answer": "Crashdub Club"
+            },
+            {
+              "question": "What is the **27th** Normal quest area called?",
+              "answer": "Thunder Storm Mountain"
+            },
+            {
+              "question": "What is the **28th** Normal quest area called?",
+              "answer": "Tempest of Burning Purgation"
+            },
+            {
+              "question": "What is the **29th** Normal quest area called?",
+              "answer": "Snow Nostalgia"
+            },
+            {
+              "question": "What is the **30th** Normal quest area called?",
+              "answer": "Moonlight Old City"
+            },
+            {
+              "question": "What is the **31st** Normal quest area called?",
+              "answer": "Cherry Blossom Castle"
+            },
+            {
+              "question": "How much REC does a healing fruit give?",
+              "answer": "7"
+            },
+            {
+              "question": "How much REC does a Mega healing fruit give?",
+              "answer": "21"
+            },
+            {
+              "question": "How much REC does a Giga healing fruit give?",
+              "answer": "70"
+            },
+            {
+              "question": "How much REC does a Tera healing fruit give?",
+              "answer": "140"
+            },
+            {
+              "question": "How much do hatters cost in the Ghost store?",
+              "answer": "2000"
+            },
+            {
+              "question": "How much do caterpillars cost in the Ghost store?",
+              "answer": "1500"
+            },
+            {
+              "question": "How much do Little Humpties cost in the Ghost store?",
+              "answer": "4000"
+            },
+            {
+              "question": "How much do Master Keys cost in the Ghost store?",
+              "answer": "3000"
+            },
+            {
+              "question": "How much do Giga fruits cost in the Ghost store?",
+              "answer": "1400"
+            },
+            {
+              "question": "How much do Ducksworths cost in the Ghost store?",
+              "answer": "700"
+            },
+            {
+              "question": "How many floors does Solo Challenge Tower have?",
+              "answer": "25"
+            },
+            {
+              "question": "What is the name of the quest where you obtain Merksha?",
+              "answer": "Painter of Love"
+            },
+            {
+              "question": "What is the name of the quest where you obtain Rodan?",
+              "answer": "Silent Pteranodon Attack"
+            },
+            {
+              "question": "What is the name of the quest where you obtain Chiemi?",
+              "answer": "Love at first fright"
+            },
+            {
+              "question": "What is the name of the quest where you obtain Red Hare?",
+              "answer": "Red Hares on Horseback"
+            },
+            {
+              "question": "What is the name of the quest where you obtain Mr.Whale?",
+              "answer": "Call of the Great Whale"
+            },
+            {
+              "question": "What is the name of the quest where you obtain Mjölnir?",
+              "answer": "Selection by Lightning Round"
+            },
+            {
+              "question": "What is the name of the quest where you obtain Haydn Ogre?",
+              "answer": "Kitty meet Murderous mouse"
+            },
+            {
+              "question": "What is the name of the quest where you obtain Terabell?",
+              "answer": "Death to the Beast"
+            },
+            {
+              "question": "What is the name of the quest where you obtain Mikado?",
+              "answer": "Unhand my bride"
+            },
+            {
+              "question": "What is the name of the quest where you obtain Witch Octopus?",
+              "answer": "Ready to Become Human"
+            },
+            {
+              "question": "What is the name of the quest where you obtain Unicorn?",
+              "answer": "Solitary Unicorn"
+            },
+            {
+              "question": "What is the name of the quest where you obtain Chika?",
+              "answer": "Crimes and Concoctions"
+            },
+            {
+              "question": "What is the name of the quest where you obtain Shizuka Gozen?",
+              "answer": "Red-Hot Dancer"
+            },
+            {
+              "question": "What is the name of the quest where you obtain Gael?",
+              "answer": "The Hammer That Falls"
+            },
+            {
+              "question": "What is the name of the quest where you obtain Hook?",
+              "answer": "Croc Hunter on a Warpath"
+            },
+            {
+              "question": "What is the name of the quest where you obtain Yuki?",
+              "answer": "'Til Hypothermia Do Us Part"
+            },
+            {
+              "question": "What is the name of the quest where you obtain Serket?",
+              "answer": "Poison God's Plea"
+            },
+            {
+              "question": "What is the name of the quest where you obtain Ja Ridalsa?",
+              "answer": "Paranoia Art"
+            },
+            {
+              "question": "What is the name of the quest where you obtain Cyclops?",
+              "answer": "Heartless Executioner"
+            },
+            {
+              "question": "What is the name of the quest where you obtain Kanetsugu Naoe?",
+              "answer": "Heaven, Earth and Man"
+            },
+            {
+              "question": "What is the name of the quest where you obtain Nelson?",
+              "answer": "One-Armed Admiral"
+            },
+            {
+              "question": "What is the name of the quest where you obtain Yuya?",
+              "answer": "Animal Assassin"
+            },
+            {
+              "question": "What is the name of the quest where you obtain Ranmaru?",
+              "answer": "The Lord's Right-hand man"
+            },
+            {
+              "question": "What is the name of the quest where you obtain Versailles?",
+              "answer": "Firelight Beauty"
+            },
+            {
+              "question": "What is the name of the quest where you obtain Humbaba?",
+              "answer": "Beasts of the Dark"
+            },
+            {
+              "question": "What is the name of the quest where you obtain Pazuzu?",
+              "answer": "Morphing Wind"
+            },
+            {
+              "question": "What is the name of the quest where you obtain Archelon?",
+              "answer": "The Listless Bookworm"
+            },
+            {
+              "question": "What is the name of the quest where you obtain Leedsichthys?",
+              "answer": "Glutton for Punishment"
+            },
+            {
+              "question": "What is the name of the quest where you obtain Kaede?",
+              "answer": "Thumbs in the air"
+            },
+            {
+              "question": "What is the name of the quest where you obtain Sen no Rikyu?",
+              "answer": "The Journey Begins"
+            },
+            {
+              "question": "What is the name of the quest where you obtain Byggvir & Beyla?",
+              "answer": "Fairy Blockade"
+            },
+            {
+              "question": "What is the name of the quest where you obtain Land Dragon?",
+              "answer": "Red Dragon Sanctions"
+            },
+            {
+              "question": "What is the name of the quest where you obtain Nasu no Yoichi?",
+              "answer": "Zero-One Game"
+            },
+            {
+              "question": "What is the name of the quest where you obtain Motojiro Kajii?",
+              "answer": "Lemon-Colored Shock"
+            },
+            {
+              "question": "What is the name of the quest where you obtain Lindworm?",
+              "answer": "Steel Predator"
+            },
+            {
+              "question": "What is the name of the quest where you obtain Reflect&MIRROR?",
+              "answer": "The Beautiful but Deluded Queen"
+            },
+            {
+              "question": "What is the name of the quest where you obtain Iria",
+              "answer": "Mediator Among Friends"
+            },
+            {
+              "question": "What is the name of the quest where you obtain Sparta?",
+              "answer": "Endurance and Obedience"
+            },
+            {
+              "question": "What is the name of the quest where you obtain Misako?",
+              "answer": "Ashes to Ashes"
+            },
+            {
+              "question": "What is the name of the quest where you obtain Ahemait?",
+              "answer": "Soul-Slaying Shadow"
+            },
+            {
+              "question": "What is the name of the quest where you obtain Megalodon?",
+              "answer": "Terror of the Deep"
+            },
+            {
+              "question": "What is the name of the quest where you obtain Nue?",
+              "answer": "Thundercloud Assassin"
+            },
+            {
+              "question": "What is the name of the quest where you obtain Lisa?",
+              "answer": "Suffocation Cometh"
+            },
+            {
+              "question": "What is the name of the quest where you obtain Siren?",
+              "answer": "Siren Song"
+            },
+            {
+              "question": "What is the name of the quest where you obtain Parvati?",
+              "answer": "It's all for the Master"
+            },
+            {
+              "question": "Who rules the the five Queens?",
+              "answer": "Queen of Hearts"
+            },
+            {
+              "question": "How much Polygon do you get in total from missions for clearing all Normal quests?",
+              "answer": "350"
+            },
+            {
+              "question": "How much Polygon do you get in total from missions for the first 10 days of playing Crash Fever?",
+              "answer": "500"
+            },
+            {
+              "question": "How much Polygon do you get in total from missions for reaching rank 50?",
+              "answer": "250"
+            },
+            {
+              "question": "How much Polygon do you get from the mission for logging in a total of 100 days?",
+              "answer": "200"
+            },
+            {
+              "question": "How much Polygon do you get from the mission for logging in a total of 200 days?",
+              "answer": "100"
+            },
+            {
+              "question": "How much Polygon do you get from the mission for logging in a total of 365 days?",
+              "answer": "50"
+            },
+            {
+              "question": "How much Polygon do you get from the mission for logging in a total of 500 days?",
+              "answer": "200"
+            },
+            {
+              "question": "What is Chunhyang also known as?",
+              "answer": "Haruka"
+            },
+            {
+              "question": "What is the Haruka also known as?",
+              "answer": "Chunhyang"
+            },
+            {
+              "question": "What is the maximum amount of Polygon obtainable from a 7 day Membership?",
+              "answer": "150"
+            },
+            {
+              "question": "What is the maximum amount of Polygon obtainable from a 30 day Membership?",
+              "answer": "1075"
+            },
+            {
+              "question": "What is the maximum amount of Polygon obtainable from a 90 day Membership?",
+              "answer": "4300"
+            },
+            {
+              "question": "How many units are there in the database?",
+              "answer": "2182"
+            },
+            {
+              "question": "What is the name of the quest where you obtain Lupine Guzzler Woolfe?",
+              "answer": "The Better to eat you with"
+            },
+            {
+              "question": "What is the name of the quest where you obtain Urashima?",
+              "answer": "The Battle for Ryugujo"
+            },
+            {
+              "question": "What is the name of the quest where you obtain Lessa & Gigan?",
+              "answer": "Backstreet Brawl"
+            },
+            {
+              "question": "What is the name of the quest where you obtain Odr?",
+              "answer": "The Seeker of Truth"
+            },
+            {
+              "question": "What is the name of the quest where you obtain Hydra?",
+              "answer": "Cannoball Capers"
+            },
+            {
+              "question": "What is the name of the quest where you obtain Fernyiges?",
+              "answer": "The Radiant Dragon on High"
+            },
+            {
+              "question": "What is the name of the quest where you obtain Gjallarhorn?",
+              "answer": "Melody of the Weekend"
+            },
+            {
+              "question": "What green unit may drop from the Link hatcher?",
+              "answer": "Genbu"
+            },
+            {
+              "question": "What blue unit may drop from the Link hatcher?",
+              "answer": "Seiryu"
+            },
+            {
+              "question": "What red unit may drop from the Link hatcher?",
+              "answer": "Suzaku"
+            },
+            {
+              "question": "What is the name of the quest where you obtain Anastasia?",
+              "answer": "Hand Over that Glass Slipper"
+            },
+            {
+              "question": "What yellow unit may drop from the Link hatcher?",
+              "answer": "Byakko"
+            },
+            {
+              "question": "A unit that has a skill cooldown of 23 before enhance will have what skill cooldown after enhance?",
+              "answer": "8"
+            },
+            {
+              "question": "How many levels are required to fully upgrade an Ultimate quest unit's skill?",
+              "answer": "16"
+            },
+            {
+              "question": "A unit that has a skill cooldown of 22 before enhance will have what skill cooldown after enhance?",
+              "answer": "7"
+            },
+            {
+              "question": "How many levels are required to fully upgrade a Wizard quest unit's skill?",
+              "answer": "5"
+            },
+            {
+              "question": "How many levels are required to fully upgrade a Hatcher unit's skill?",
+              "answer": "7"
+            },
+            {
+              "question": "How much EXP does an awakened frog give to a unit of the same color?",
+              "answer": "150000"
+            },
+            {
+              "question": "How much EXP does an awakened frog give to a unit of a different color?",
+              "answer": "100000"
+            },
+            {
+              "question": "How much Polygon in total can be obtained from the New Friend Bonus?",
+               "answer": "1400"
+            }
           ]
         }
       ]},
-    [
       {
         "topic": "Units",
         "questions": [
           {
             "difficulty": "Easy",
             "questions": [
-
-            ]},
+            ]
+          },
           {
             "difficulty": "Medium",
             "questions": [
-
-              ]},
+            ]
+          },
           {
             "difficulty": "Hard"
           },
-          {"questions": [
-
-                  ]}
-          ]
+          {
+            "questions": [
+            ]
           }
-        ],
-    [
+        ]
+      },
       {
         "topic": "Quests",
         "questions": [
@@ -110,18 +1176,5 @@
 
           ]}
         ]
-      }
-        ]
-    ]}
-
-/* Topics:
--ghost store
--specific units
--quests
--ranked
--awakening
--guerilla quests
--bits,links,polygons
--transcendent
-
-*/
+      }]
+    }

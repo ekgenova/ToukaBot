@@ -3,8 +3,8 @@ const Discord = require("discord.js");
 exports.run = (client,message,args) => {
 
   // Get a filtered list (for this guild only), and convert to an array while we're at it.
-  const filteredExp = client.exp.array().filter( p => p.guild === message.guild.id );
-  const filteredClaims = client.claims.array().filter( p => p.guild === message.guild.id);
+  let filteredExp = client.exp.array().filter( p => p.guild === message.guild.id );
+  let filteredClaims = client.claims.array().filter( p => p.guild === message.guild.id);
 
   if (args[0] === "exp") {
 
@@ -25,11 +25,11 @@ exports.run = (client,message,args) => {
 
   if (args[0] === "claims"){
 
-      let sortedClaimCount = filteredClaims.sort((a,b) => a.claims.claimCount < b.claims.claimCount);
+      let sortedClaimCount = filteredClaims.sort((a,b) => a.claimCount < b.claimCount);
 
       let top10ClaimCount = sortedClaimCount.splice(0,10);
 
-      const embedClaims = new Discord.RichEmbed()
+      let embedClaims = new Discord.RichEmbed()
           .setTitle("Claims Leaderboard")
           .setAuthor(client.user.username, client.user.avatarURL)
           .setDescription("Top 5 users that have claimed the most units~");
@@ -45,7 +45,7 @@ exports.run = (client,message,args) => {
 
   if (args[0] === "poly"){
 
-      let sortedClaimTotalSpent = filteredClaims.sort((a,b) => a.claims.totalSpent < b.claims.totalSpent);
+      let sortedClaimTotalSpent = filteredClaims.sort((a,b) => a.totalSpent < b.totalSpent);
 
       let top10TotalSpent = sortedClaimTotalSpent.splice(0,10);
 

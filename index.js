@@ -17,6 +17,7 @@ client.credit = new Enmap({name: "credit"});
 client.claims = new Enmap({name: "claims"});
 client.newclaim = new Enmap({name: "newclaim"});
 client.bets = new Enmap({name: "bets"});
+client.trivia = new Enmap({name: "trivia"});
 
 
 fs.readdir("./events/", (err, files) => {
