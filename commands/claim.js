@@ -48,7 +48,10 @@ exports.run = (client,message,args) => {
     }
 
 
-
+    if (args[0] === "remove"){
+        let unitToRemove = args.slice(1, args.length-1).join(" ");
+        client.claims.remove(key, unitToRemove, "claimList");
+    }
 
 
     function capitalise(str)
