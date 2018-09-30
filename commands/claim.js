@@ -1,6 +1,13 @@
 exports.run = (client,message,args) => {
 
     const key = `${message.guild.id}-${message.author.id}`;
+
+    if (args[0] === "remove"){
+        let unitToRemove = args.slice(1, args.length).join(" ");
+        client.claims.remove(key, unitToRemove, "claimList");
+        return message.channel.send(`Removed ${unitToRemove}!`);
+    }
+
     let unitToClaim = args.slice(0, args.length-1).join(" ");
     let polyToUse = parseInt(args[args.length-1]);
     if (args.length < 2) return message.reply("You need to tell me a unit and value to claim... :( Try something like t.claim Pascal 100 <:touka:485948194652553216>");
@@ -46,13 +53,6 @@ exports.run = (client,message,args) => {
     } else {
         message.reply('You don\'t have enough poly to use for that claim! :(');
     }
-
-
-    if (args[0] === "remove"){
-        let unitToRemove = args.slice(1, args.length-1).join(" ");
-        client.claims.remove(key, unitToRemove, "claimList");
-    }
-
 
     function capitalise(str)
     {
