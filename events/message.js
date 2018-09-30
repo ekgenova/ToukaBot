@@ -13,7 +13,9 @@ module.exports = (client, message) => {
         client.credit.ensure(key, {
             user: message.author.id,
             guild: message.guild.id,
-            poly: 0
+            poly: 0,
+            next: "",
+            claimed: false
         });
         client.claims.ensure(key,{
             user: message.author.id,
@@ -55,9 +57,11 @@ module.exports = (client, message) => {
 
         client.config.levels.forEach(level => {
             if (client.exp.get(key, "exp") === level.exp){
-                message.reply(`You've leveled up to level **${level.name}**!`)
+                message.reply(`You've leveled up to level **${level.name}**! You've gained 50 poly!`)
                 curLevel = level.name;
                 client.exp.set(key, curLevel, "level");
+                let updatedPoly = client.credit.get(key, "poly") + 50;
+                client.credit.set(key, updatedPoly, "poly");
             }
         });
 
