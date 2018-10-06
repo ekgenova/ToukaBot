@@ -3,7 +3,6 @@ const Enmap = require("enmap");
 const fs = require("fs");
 const math = require('mathjs')
 const Chance = require('chance');
-const Probabily = require('probability-js');
 
 
 const client = new Discord.Client();
@@ -51,4 +50,4 @@ fs.readdir("./commands/", (err, files) => {
   });
 });
 
-client.login(process.env.token);
+client.login(config.token);
