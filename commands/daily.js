@@ -19,7 +19,7 @@ exports.run = (client,message) => {
     client.credit.set(key, userCredit, "poly");
     let nextClaim = currMoment.add(8, 'hours');
     client.credit.set(key, nextClaim, "next");
-    message.reply("you've claimed 10 <:poly:486028147821641740>, come back in 8 hours for more!");
+    message.reply("you've claimed 10 <:poly:485948194652553216>, come back in 8 hours for more!");
   }
   else {
     let userNextClaim = moment(client.credit.get(key, "next"));

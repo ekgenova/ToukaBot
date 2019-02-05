@@ -31,7 +31,7 @@ exports.run = (client,message,args) => {
       .setColor(0x00AE86)
       .setThumbnail(`${message.author.avatarURL}`)
       .addField(`**Level**: ${client.exp.get(key, "level")}`,`You currently have ${client.exp.get(key, "exp")} EXP`, true)
-      .addField(`**Poly** <:poly:495685845383249923>:`, `${client.credit.get(key, "poly")}`, true)
+      .addField(`**Poly** <:poly:486028096475234310>:`, `${client.credit.get(key, "poly")}`, true)
       .addField(`**Claims**:`, `${client.claims.getProp(key, "claimList")}`);
   message.channel.send(profileNonEmptyClaim);
 

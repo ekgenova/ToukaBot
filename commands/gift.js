@@ -4,7 +4,7 @@ exports.run = (client,message,args) => {
   if(!user) return message.reply("You must mention someone or give their ID!");
 
   const polyToGift = parseInt(args[1], 10);
-  if(!polyToGift) return message.reply("You didn't tell me how much <:poly:486028147821641740> to give... :(")
+  if(!polyToGift) return message.reply("You didn't tell me how much <:poly:485948194652553216> to give... :(")
 
   // Ensure there is a points entry for this user.
   const receiver = `${message.guild.id}-${user.id}`;
@@ -34,7 +34,7 @@ exports.run = (client,message,args) => {
     client.credit.set(receiver, receiverPoly, "poly");
     client.credit.set(gifter, gifterPoly, "poly");
 
-    message.channel.send(`<@${user.id}> has received ${polyToGift} <:poly:486028147821641740> from <@${message.author.id}>~ `);
+    message.channel.send(`<@${user.id}> has received ${polyToGift} <:poly:485948194652553216> from <@${message.author.id}>~ `);
 
   } else {
 

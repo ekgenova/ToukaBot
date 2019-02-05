@@ -5,10 +5,10 @@ exports.run = (client,message,args) => {
     let polyToUse = parseInt(args[0]);
     let betChoice = args[1];
     let currPoly = client.credit.get(key, "poly");
-    if (!polyToUse) return message.reply('You didn\`t tell me how much <:poly:486028147821641740> to bet!');
+    if (!polyToUse) return message.reply('You didn\`t tell me how much <:poly:485948194652553216> to bet!');
     if (!betChoice) return message.reply('You didn\`t tell me your choice! Heads or tails~?');
     if (!(betChoice === "heads" || betChoice === "tails")) return message.reply("Heads or tails only! No cheating~ ^^");
-    if (currPoly < polyToUse) return message.reply("You don't have enough <:poly:486028147821641740> to make that bet! :(");
+    if (currPoly < polyToUse) return message.reply("You don't have enough <:poly:485948194652553216> to make that bet! :(");
 
     let flipped = coinFlip();
 
@@ -24,13 +24,13 @@ exports.run = (client,message,args) => {
         client.bets.set(key, newBetWins, "totalWins");
         client.bets.set(key, newHTWins, "HTWins");
 
-        return message.reply('The coin fell on ' + flipped + '- you WIN ' + 2*polyToUse + '<:poly:486028147821641740>! Well done~');
+        return message.reply('The coin fell on ' + flipped + '- you WIN ' + 2*polyToUse + '<:poly:485948194652553216>! Well done~');
     }
     else {
         let updatedPoly = currPoly - polyToUse;
         client.credit.set(key, updatedPoly, "poly");
 
-        return message.reply('The coin fell on ' + flipped + '-you LOSE ' + polyToUse + '<:poly:486028147821641740>...');
+        return message.reply('The coin fell on ' + flipped + '-you LOSE ' + polyToUse + '<:poly:485948194652553216>...');
     }
 
     function coinFlip() {

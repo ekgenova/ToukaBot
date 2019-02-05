@@ -10,8 +10,8 @@ exports.run = (client,message,args) => {
 
     let unitToClaim = args.slice(0, args.length-1).join(" ");
     let polyToUse = parseInt(args[args.length-1]);
-    if (args.length < 2) return message.reply("You need to tell me a unit and value to claim... :( Try something like t.claim Pascal 100 <:touka:485948194652553216>");
-    if (!polyToUse) return message.reply("You didn\'t tell me how much <:poly:486028096475234310:> to use for the claim... :( Try something like t.claim Pascal 100 <:touka:485948194652553216>");
+    if (args.length < 2) return message.reply("You need to tell me a unit and value to claim... :( Try something like t.claim Pascal 100");
+    if (!polyToUse) return message.reply("You didn\'t tell me how much <:poly:485948194652553216:> to use for the claim... :( Try something like t.claim Pascal 100 <:touka:485948194652553216>");
 
     unitToClaim = capitalise(unitToClaim);
 
@@ -31,7 +31,7 @@ exports.run = (client,message,args) => {
             let updatedPoly = client.claims.get(key, unitToClaim) + polyToUse;
             client.claims.set(key, updatedPoly, unitToClaim);
 
-            message.reply('You\'ve given ' + polyToUse + '<:poly:495685845383249923> to ' + unitToClaim + ' again! I can feel the love~');
+            message.reply('You\'ve given ' + polyToUse + ' <:poly:485948194652553216> to ' + unitToClaim + ' again! I can feel the love~');
         } else {
             client.claims.set(key, polyToUse, unitToClaim);
             if (client.claims.hasProp(key, "claimCount")){
@@ -45,13 +45,13 @@ exports.run = (client,message,args) => {
             } else {
                 client.claims.push(key, unitToClaim, "claimList");
             }
-            message.reply('You\'ve claimed ' + unitToClaim + ' using ' + polyToUse + '<:poly:495685845383249923> ~ <:heart:490338691852795914>');
+            message.reply('You\'ve claimed ' + unitToClaim + ' using ' + polyToUse + '<:poly:485948194652553216> ~ <:heart:490338691852795914>');
         }
 
         client.credit.set(key, updatedPoly, "poly");
         client.claims.set(key, newPolySpent, "totalSpent");
     } else {
-        message.reply('You don\'t have enough poly to use for that claim! :(');
+        message.reply('You don\'t have enough <:poly:485948194652553216> to use for that claim! :(');
     }
 
     function capitalise(str)
